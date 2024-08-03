@@ -102,11 +102,11 @@ select {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  border: transparent;
 }
 
 select:hover {
   color: white;
+  background-color: #1e252b;
 }
 
 

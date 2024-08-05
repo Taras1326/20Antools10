@@ -488,6 +488,7 @@ select:hover {
   flex-shrink: 0;
 }
 
+
 .center {
   display: flex;
   justify-content: center;
@@ -561,8 +562,7 @@ select:hover {
 }
 
 .list-logo:hover::before {
-  font-family: "iconfonts" !important;
-  speak: never;
+  font-family: "iconfonts";
   font-style: normal;
   font-weight: 400;
   font-variant: normal;
@@ -680,8 +680,13 @@ select:hover {
   background: rgba(40, 48, 54, 0.6);
   backdrop-filter: blur(25px);
   background-image: url(./img/orangemask.png);
-  margin-top: -20px;
+  /* margin-top: -20px; */
+.button-descriptioning {
+  background-color:#FF6E30;
+  color: #FFF;
 }
+}
+
 
 .procreate-image {
   width: 56px;
@@ -750,6 +755,8 @@ select:hover {
   background: #1e252b;
   border: none;
   background: #ff6e30;
+  /* background-color: #1e252b;
+  border: 1px solid #ff6e30; */
 }
 
 .section-people {
@@ -760,6 +767,7 @@ select:hover {
   background-size: 399px 492px;
   background-position: 295px 200px;
   padding-bottom: 250px;
+  
 }
 
 .list-text {
@@ -958,6 +966,7 @@ select:hover {
   margin-right: 228px;
 }
 
+
 .last-list {
   margin-left: 115px;
 }
@@ -980,6 +989,9 @@ select:hover {
   font-weight: 500;
   line-height: normal;
 }
+.contact-number:hover {
+  color: white;
+}
 
 .contact-caption {
   color: rgba(255, 255, 255, 0.55);
@@ -990,6 +1002,9 @@ select:hover {
   line-height: normal;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.contact-caption:hover {
+  color: white;
 }
 
 .lists {
@@ -1006,6 +1021,10 @@ select:hover {
   margin-bottom: 10px;
 }
 
+.contacts:hover {
+  color: white;
+}
+
 .contacting {
   color: rgba(255, 255, 255, 0.55);
   font-family: Poppins;
@@ -1014,4 +1033,8 @@ select:hover {
   font-weight: 500;
   line-height: normal;
   margin-bottom: 0px;
+}
+
+.contacting:hover {
+  color: white;
 }

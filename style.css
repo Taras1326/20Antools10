@@ -496,6 +496,9 @@ select:hover {
   background: #1e252b;
   border: none;
   margin-left: 130px;
+ 
+  
+  
   /* background-color: brown; */
 }
 /* .text-item {
@@ -832,6 +835,7 @@ flex-shrink: 0;
   background: #1e252b;
   border: none;
   background: #ff6e30;
+  box-shadow: 0 0 12px rgba(255, 110, 48, 0.5);
   /* background-color: #1e252b;
   border: 1px solid #ff6e30; */
 }

@@ -654,11 +654,32 @@ select:hover {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 166%;
+  line-height: 30px; /* 166.667% */
+}
+.button-lo {
+  display: flex;
 }
 
 .button-program {
-  color: #fff;
+  width: 198px;
+height: 58px;
+flex-shrink: 0;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 8px;
+  background: #FF6E30;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  /* padding-right: 40px; */
+  border-radius: 8px;
+  border: none;
+  /* color: #fff;
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
@@ -671,12 +692,14 @@ select:hover {
   border-radius: 8px;
   background: #ff6e30;
   border: none;
+  align-items: center; */
 }
 
 .button-program:hover {
   background-color: #1e252b;
   border: 1px solid #ff6e30;
 }
+
 
 /* .text-program {
     color: #FFF;
@@ -949,6 +972,14 @@ select:hover {
   background: #283036;
 }
 
+.text-input-email {
+  background: #283036;
+  border: none;
+  margin-right: 160px;
+}
+
+
+
 .button-input-box {
   color: #fff;
   font-family: Poppins;
@@ -959,11 +990,9 @@ select:hover {
   border: none;
   border-radius: 8px;
   background: #ff6e30;
-  margin-left: auto;
   width: 130.435px;
   height: 48px;
   margin-top: -12px;
-  margin-right: 12px;
 }
 
 .button-input-box:hover {

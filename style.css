@@ -381,13 +381,16 @@ select:hover {
 
 .wrapper-flex {
   display: flex;
+  gap: 30px;
 }
+
 
 .zeplin {
   width: 56px;
   height: 44px;
   flex-shrink: 0;
 }
+
 
 .text-figma {
   color: rgba(255, 255, 255, 0.78);
@@ -396,7 +399,7 @@ select:hover {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .text-discount {
@@ -406,7 +409,7 @@ select:hover {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .text-discount:hover {
@@ -1004,7 +1007,10 @@ select:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 25px; /* 178.571% */
-  margin-right: 228px;
+}
+
+.list-footering {
+  margin-left: 156px;
 }
 
 .last-list {

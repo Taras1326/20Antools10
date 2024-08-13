@@ -48,6 +48,7 @@ ul {
   position: sticky;
   z-index: 1;
   top: 0px;
+  box-shadow: rgba(40, 48, 54, 0.6) 0px 5px 15px 0px;
   /* position: sticky;
     top: 0;
     left: 0;
@@ -362,6 +363,7 @@ select:hover {
   border-radius: 15px;
   background: #1e252b;
   transition: margin-top 0.4s ease;
+
 }
 
 .wrapper:hover {
@@ -381,14 +383,16 @@ select:hover {
 
 .wrapper-flex {
   display: flex;
-  gap: 30px;
 }
-
+.wrapper-img {
+  margin-right: 30px;
+}
 
 .zeplin {
   width: 56px;
   height: 44px;
   flex-shrink: 0;
+  margin-right: 30px;
 }
 
 
@@ -607,7 +611,7 @@ select:hover {
   margin-right: 82px;
 }
 
-.list-logo:hover::before {
+.list-logo:hover {
   font-family: "iconfonts";
   font-style: normal;
   font-weight: 400;
@@ -616,6 +620,10 @@ select:hover {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.list-img:hover::after::before {
+  color: white;
 }
 
 .section-program {
@@ -737,6 +745,7 @@ select:hover {
   width: 56px;
   height: 56px;
   flex-shrink: 0;
+  margin-right: 30px;
 }
 
 .text-descrip {
@@ -1026,6 +1035,13 @@ select:hover {
   line-height: normal;
   margin-bottom: 20px;
 }
+.footer__column-nav-link {
+  font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    transition: all .3s;
+}
 
 .contact-number {
   color: rgba(255, 255, 255, 0.55);
@@ -1034,6 +1050,7 @@ select:hover {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+
 }
 .contact-number:hover {
   color: white;

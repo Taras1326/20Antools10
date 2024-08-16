@@ -139,16 +139,30 @@ select:hover {
 }
 
 .disk-text {
-  color: rgba(255, 255, 255, 0.78);
+  color: #fdf5ff;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border: 1px solid #1e252b;
+  border: none;
+
+  /* color: rgba(255, 255, 255, 0.78);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; */
 }
 
 .disk-text:hover {
-  color: white;
+  background-color: #ff6e30;
 }
 
 .button {
@@ -659,14 +673,8 @@ select:hover {
   font-weight: 500;
   line-height: 30px; /* 166.667% */
 }
-.button-lo {
-  display: flex;
-}
 
 .button-program {
-  width: 198px;
-height: 58px;
-flex-shrink: 0;
   color: #FFF;
   font-family: Poppins;
   font-size: 18px;
@@ -675,12 +683,10 @@ flex-shrink: 0;
   line-height: normal;
   border-radius: 8px;
   background: #FF6E30;
-  align-items: center;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 40px;
-  /* padding-right: 40px; */
-  border-radius: 8px;
+  padding-right: 40px;
   border: none;
   /* color: #fff;
   font-family: Poppins;

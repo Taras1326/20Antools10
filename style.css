@@ -77,11 +77,8 @@ ul {
 }
 
 .list-header {
-  gap: 40px;
-}
-
-.list-header {
   display: flex;
+  gap: 40px;
 }
 
 .link {
@@ -377,7 +374,6 @@ select:hover {
   border-radius: 15px;
   background: #1e252b;
   transition: margin-top 0.4s ease;
-
 }
 
 .wrapper:hover {
@@ -408,7 +404,6 @@ select:hover {
   flex-shrink: 0;
   margin-right: 30px;
 }
-
 
 .text-figma {
   color: rgba(255, 255, 255, 0.78);
@@ -510,9 +505,7 @@ select:hover {
   background: #1e252b;
   border: none;
   margin-left: 130px;
- 
-  
-  
+
   /* background-color: brown; */
 }
 /* .text-item {
@@ -550,11 +543,25 @@ select:hover {
   cursor: pointer;
 }
 
+
 .image-caption {
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   flex-shrink: 0;
+  border-radius: 8px;
+  padding: 7px;
+  background: #1e252b;
+  border: none;
+  margin-left: 12px;
+  cursor: pointer;
 }
+
+ .image-caption:hover {
+  border-radius: 8px;
+  background: #283036;
+  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+  border: none;
+} 
 
 .center {
   display: flex;
@@ -675,14 +682,14 @@ select:hover {
 }
 
 .button-program {
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   border-radius: 8px;
-  background: #FF6E30;
+  background: #ff6e30;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 40px;
@@ -708,7 +715,6 @@ select:hover {
   background-color: #1e252b;
   border: 1px solid #ff6e30;
 }
-
 
 /* .text-program {
     color: #FFF;
@@ -790,22 +796,6 @@ select:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 214.286% */
-}
-
-.button-likee {
-  border-radius: 8px;
-  padding: 7px;
-  background: #1e252b;
-  border: none;
-  margin-left: 12px;
-}
-
-.button-likee:hover {
-  border-radius: 8px;
-  background: #283036;
-  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
-  border: none;
-  margin-left: 12px;
 }
 
 .button-descriptioning {
@@ -988,8 +978,6 @@ select:hover {
   margin-right: 160px;
 }
 
-
-
 .button-input-box {
   color: #fff;
   font-family: Poppins;
@@ -1076,10 +1064,10 @@ select:hover {
 }
 .footer__column-nav-link {
   font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    font-family: Poppins, sans-serif;
-    transition: all .3s;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  transition: all 0.3s;
 }
 
 .contact-number {
@@ -1089,7 +1077,6 @@ select:hover {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-
 }
 .contact-number:hover {
   color: white;

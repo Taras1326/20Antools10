@@ -81,6 +81,11 @@ ul {
   gap: 40px;
 }
 
+.header-lo {
+  border-radius: 20px;
+  border: none;
+}
+
 .link {
   display: flex;
   align-items: center;
@@ -93,6 +98,8 @@ ul {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  white-space: nowrap;
+    transition: .3s;
 }
 
 .item-text:hover {

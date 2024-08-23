@@ -256,6 +256,19 @@ select:hover {
   background: #283036;
 }
 
+/* .input::after:before {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border-radius: 15px;
+  width: 100px;
+  height: 130%;
+  animation: 3s linear infinite;
+  transition: all 0.2s linear;
+  background: linear-gradient(180deg, rgba(255, 183, 0), rgba(255, 48, 255))
+} */
+
+
 .image-list {
   display: flex;
   align-items: center;
